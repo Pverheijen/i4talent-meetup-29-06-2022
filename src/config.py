@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Config:
     tracking_uri = r"sqlite:///mlruns.db"
