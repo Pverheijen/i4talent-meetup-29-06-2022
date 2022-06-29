@@ -25,6 +25,12 @@ pip install -e src/
 pip install -e training_template/
 ```
 
+Running the Tracking server for the dashboard on https://127.0.0.1:5000
+
+```bash
+./start_server.sh
+```
+
 # Training Template
 The main focus here is to standardize the Training of Machine Learning models.
 This is done by providing Abstract Base Classes for components of the Model Training Pipeline.
